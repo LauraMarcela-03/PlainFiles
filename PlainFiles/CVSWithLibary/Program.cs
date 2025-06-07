@@ -9,7 +9,7 @@ var validator = new UserValidation(usersFile, logFile);
 
 if (!validator.Login())
 {
-    Console.WriteLine("No se pudo autenticar. Saliendo del programa...");
+    Console.WriteLine("Could not authenticate. Exiting the program...");
     return;
 }
 
